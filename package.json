@@ -1,0 +1,19 @@
+{
+  "name": "api_rest_tdd",
+  "version": "1.0.0",
+  "description": "Curso de API REST com TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/** test/** --fix",
+    "jest": "jest"
+  },
+  "author": "Jeferson Macedo <jefersonmacedowgf@gmail.com> (https://github.com/jefersonmmacedo)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "23.6.0"
+  }
+}
