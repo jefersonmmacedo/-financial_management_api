@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
     "lint": "eslint src/** test/** --fix",
-    "jest": "jest"
+    "jest": "jest",
+    "secure-mode": "jest --watch --verbose=true"
   },
   "author": "Jeferson Macedo <jefersonmacedowgf@gmail.com> (https://github.com/jefersonmmacedo)",
   "license": "MIT",
@@ -14,6 +17,13 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.2",
-    "jest": "23.6.0"
+    "jest": "23.6.0",
+    "nodemon": "^2.0.13",
+    "supertest": "3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1"
   }
 }

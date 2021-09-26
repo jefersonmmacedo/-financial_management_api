@@ -12,6 +12,8 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-console": "off"
+        "no-console": "off",
+        "arrow-body-style":"off",
+        "import/newline-after-import": ["error", { "count": 0 }]
     }
 }
